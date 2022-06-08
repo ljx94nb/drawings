@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T03:37:17.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="sQ8waWuns_UYCvbHNeZz" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T11:38:03.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="TyJ5wX2MzhLB8dUMjIAJ" version="16.6.4" type="github">
   <diagram id="O0L_0XoQRPT-cTLATtVf" name="Page-1">
     <mxGraphModel dx="2354" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="eExmBl8apdsnUvxFDo8J-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eExmBl8apdsnUvxFDo8J-65" target="eExmBl8apdsnUvxFDo8J-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eExmBl8apdsnUvxFDo8J-65" value="更新应用迭代表中的previewVersion字段" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="eExmBl8apdsnUvxFDo8J-65" value="更新应用迭代表中的&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;previewId&lt;/span&gt;字段" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-490" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eExmBl8apdsnUvxFDo8J-67" value="应用搭建页将动态加载指定版本的preview资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -108,7 +108,7 @@
         <mxCell id="eExmBl8apdsnUvxFDo8J-94" value="更新preview表中该租户的versions列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-235" y="540" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eExmBl8apdsnUvxFDo8J-104" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;若业务没有指定当前业务域的preview（应用迭代表中无previewVersion字段）&lt;br&gt;默认使用基线版本的preview&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="eExmBl8apdsnUvxFDo8J-104" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;若业务没有指定当前业务域的preview（应用迭代表中无previewId字段）&lt;br&gt;默认使用基线版本的preview&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="-643" width="220" height="75" as="geometry" />
         </mxCell>
         <mxCell id="eExmBl8apdsnUvxFDo8J-107" value="更改依赖的静态版本（分orca的预发和线上环境）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
